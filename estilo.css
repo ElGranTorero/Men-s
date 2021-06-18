@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(fondo.jpg);
+    background-image: url(fondo.png);
     /*background: #EB7506;*/
     background-size: 100vw 100vh;
     background-attachment: fixed;
