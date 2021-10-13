@@ -1,0 +1,142 @@
+body{
+    font-family: serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin:0;
+    padding: 0;
+}
+/* Estilos Tiposgraficos */
+p{
+    margin-bottom: 1.6em;
+}
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+.ncelular{
+    margin-bottom: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 5px;
+    color: white;
+    line-height: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.botonesmenu:hover a{
+    color:white;
+}
+/* Aqui terminan los Estilos Tiposgraficos */
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 0 67px;
+
+}
+.header{
+    background: #00AAC0;
+    color: white;
+    padding: 0;
+    
+    /*position: fixed;
+    left: 0;
+    top:0;
+    right: 0;*/
+    /*otra forma para exterder el menu es width: 100%; pero me quedare con right:0; */
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.2em;
+}
+.menu-icon{
+    display: none;
+}
+.navegation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.navegation ul li{
+    display: inline-block;
+}
+.navegation ul li a{
+    display: block;
+    padding: 0 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+.navegation ul li a:hover{
+    background: #00AAC0;
+}
+.main{
+    padding-top: 0;
+}
+.footer{
+    background: black;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width:847px){
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .navegation{
+            width: 100%;
+            margin-top: 1rem;
+        }
+    .navegation ul{
+            display:none;
+        }
+        .navegation ul.show{
+            display:block;
+        }
+    .navegation ul li{
+        display: block;
+    }
+    .navegation ul li a{
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+        margin: 0;
+        text-align: right;
+    }
+    .navegation ul li a:hover{
+        background: #00AAC0;
+    }
+    .header{
+        margin: 0;
+    }
+    .header a{
+        color: white;
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
+    }
+    }
+
+

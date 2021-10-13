@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;   
+   }
+body{
+    background-image:url(fondodos.png);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+h1, p{
+    margin:0;
+    padding: 0;
+    color: #555555;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 67px;
+}
+h6{
+    margin:0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #00AAC0;
+    margin-top: 20px;
+}
+.cocinadelmar{
+    width: 50%;
+    margin-top: 20px;
+}
+.imglogo{
+    width: 100%;
+}
+.botones{
+    width: 50%;
+}
+h1{
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.botonesmenu{
+    background: #F3B133;
+    border-radius: 7px;
+    width: 100%;
+    max-width: 280px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    float: right;
+    margin-top: 28px;
+    padding: 10px 0;
+    padding-left: 18px;
+    font-size: 24px;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+.botonesmenu:hover{
+    background: rgba(243, 176, 51, 0.877);
+}
+.logo{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+    margin-top: 30px;
+    justify-content: space-between;
+    padding: 0 67px;
+}
+.bars{
+    display: none;
+}
+
+@media only screen and (max-width:730px){
+
+    .cocinadelmar, .botones{
+        width: 100%;
+    }
+    .botonesmenu{
+        width: 100%;
+        max-width: 280px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+        margin: 0 auto;
+        color: white;
+        margin-top: 28px;
+        padding: 10px 0;
+        font-size: 24px;
+        transition: all 0.7s;
+        cursor: pointer;
+        float: none;
+        text-align: center;
+    }
+    .bars{
+        display:block;
+    }
+    .cocinadelmar{
+        max-width: 280px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .logo{
+        padding: 0 27px;
+    }
+    p{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+}
+@media only screen and (max-width:375px){
+    h1{
+        font-size: 32px;
+    }
+    .botonesmenu{
+        font-size: 20px;
+    }
+
+}
