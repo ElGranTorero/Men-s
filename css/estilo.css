@@ -1,0 +1,86 @@
+body{
+    background-image: url(imgcss/fondodos.png);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 40px;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.informacion, .menu{
+    width: 50%;
+}
+.menu{
+    padding: 0 20px;
+}
+.informacion{
+    padding: 0 50px 50px 50px;
+}
+.boton{
+    display: block;
+    background: #F3B133;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 1.13em;
+    transition: 1.5s
+}
+.boton:hover{
+    background: #00AAC0;
+}
+.img{
+    width: 40%;
+    margin: 0 auto;
+}
+.ilogo{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: #00AAC0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+p{
+    color: #555555;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 0.88rem;
+    text-align: left;
+    line-height: 1.31rem;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 1099px){
+    .contenedor{
+        width: 100%;
+        max-width: 270px;
+    }
+    .informacion, .menu{
+        width: 100%;
+        padding: 0;
+    }
+    p{
+        text-align: center;
+    }
+    .img{
+        width: 90%;
+    }
+    .boton{
+        text-align: center;
+    }
+}
